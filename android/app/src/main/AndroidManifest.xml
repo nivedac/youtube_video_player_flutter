@@ -1,4 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Required for video_player to stream videos from network -->
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:label="video_player"
         android:name="${applicationName}"
